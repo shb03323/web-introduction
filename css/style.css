@@ -1,4 +1,37 @@
+@font-face {
+  font-family: "Hanna";
+  src: url("../fonts/BMHANNAPro.ttf");
+}
+
+@font-face {
+  font-family: "HannaAir";
+  src: url("../fonts/BMHANNAAir_ttf.ttf");
+}
+
+h2 {
+  font-family: "Hanna";
+}
+
 #introduce-ul {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
+  font-family: "HannaAir";
+  font-size: large;
+}
+
+table, form {
+  font-family: "HannaAir";
+}
+
+th {
+  font-weight: bold;
+  font-size: large;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+img {
+  height: 300px;
+  width: auto;
+  align-items: center;
 }
